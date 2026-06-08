@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Harvey | Quantum Hybrid AI</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0e27;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(120, 0, 255, 0.15), transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(0, 200, 255, 0.15), transparent 50%);
+            z-index: -1;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 100px 20px 60px; }
+        .logo { font-size: 4em; margin-bottom: 10px; }
+        h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            background: linear-gradient(90deg, #00d4ff, #ff00aa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tagline { font-size: 1.4em; color: #b0b0ff; margin-bottom: 30px; }
+        .badges {
+            display: flex; justify-content: center;
+            gap: 12px; flex-wrap: wrap; margin-top: 30px;
+        }
+        .badge {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            border-radius: 25px;
+        }
+        .section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 50px;
+            margin-bottom: 30px;
+        }
+        h2 { font-size: 2.2em; margin-bottom: 25px; color: #00d4ff; }
+        h3 { font-size: 1.4em; color: #ff00aa; margin-bottom: 12px; }
+        p { margin-bottom: 15px; font-size: 1.05em; }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px; margin: 30px 0;
+        }
+        .stat {
+            text-align: center; padding: 30px 20px;
+            background: rgba(0, 212, 255, 0.05);
+            border-radius: 15px;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+        .stat-number {
+            font-size: 3em; font-weight: bold;
+            background: linear-gradient(135deg, #00d4ff, #ff00aa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .stat-label { color: #b0b0ff; font-size: 0.95em; }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 25px; margin-top: 30px;
+        }
+        .project {
+            background: rgba(255, 255, 255, 0.04);
+            padding: 30px; border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+        .project:hover {
+            transform: translateY(-8px);
+            border-color: #00d4ff;
+        }
+        .skills {
+            display: flex; flex-wrap: wrap;
+            gap: 12px; margin-top: 25px;
+        }
+        .skill {
+            padding: 10px 22px;
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.2), rgba(255, 0, 170, 0.2));
+            border: 1px solid rgba(0, 212, 255, 0.4);
+            border-radius: 25px;
+        }
+        .contact-links {
+            display: flex; justify-content: center;
+            gap: 30px; margin-top: 25px; flex-wrap: wrap;
+        }
+        .contact-links a {
+            color: #00d4ff; text-decoration: none;
+            padding: 12px 25px;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            border-radius: 25px;
+        }
+        footer {
+            text-align: center; padding: 50px 20px;
+            color: #707090; font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">⚛️</div>
+            <h1>Quantum Harvey</h1>
+            <p class="tagline">Building neural networks that run on real quantum computers</p>
+            <div class="badges">
+                <span class="badge">🐍 Python</span>
+                <span class="badge">⚛️ Qiskit</span>
+                <span class="badge">🌀 PennyLane</span>
+                <span class="badge">🔥 PyTorch</span>
+                <span class="badge">🌐 IBM Quantum</span>
+            </div>
+        </header>
+        
+        <section class="section">
+            <h2>👋 About Me</h2>
+            <p>I'm Harvey — exploring the cutting edge where <strong>quantum computing</strong> meets <strong>artificial intelligence</strong>.</p>
+            <p>I build hybrid quantum-classical neural networks that combine modern deep learning with the strange and beautiful principles of quantum mechanics. My work has been deployed on IBM's real 156-qubit superconducting quantum processors.</p>
+        </section>
+        
+        <section class="section">
+            <h2>🏆 What I've Built</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">156</div>
+                    <div class="stat-label">Qubit Hardware Access</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Model Architectures</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Real Hardware Tested</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Curiosity</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>🚀 Featured Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>🌌 Quantum Transformer</h3>
+                    <p>Novel implementation of multi-head quantum attention, combining the architecture behind modern LLMs with quantum computing.</p>
+                </div>
+                <div class="project">
+                    <h3>🧠 Hybrid Neural Networks</h3>
+                    <p>End-to-end trainable hybrid AI with gradients flowing through quantum gates, deployable on real IBM quantum hardware.</p>
+                </div>
+                <div class="project">
+                    <h3>🔐 Quantum Random Generator</h3>
+                    <p>Cryptographically secure password generation using true quantum randomness from superposition collapse.</p>
+                </div>
+                <div class="project">
+                    <h3>📊 Quantum Visualizations</h3>
+                    <p>Interactive visualizations of quantum phenomena including Bloch spheres, superposition, and entanglement.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>🛠️ Technical Skills</h2>
+            <div class="skills">
+                <span class="skill">Quantum Computing</span>
+                <span class="skill">Quantum Machine Learning</span>
+                <span class="skill">Hybrid Architectures</span>
+                <span class="skill">PyTorch</span>
+                <span class="skill">Qiskit</span>
+                <span class="skill">PennyLane</span>
+                <span class="skill">Python</span>
+                <span class="skill">Deep Learning</span>
+                <span class="skill">IBM Quantum Hardware</span>
+                <span class="skill">Jupyter</span>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>📫 Connect With Me</h2>
+            <p>Always interested in discussing quantum computing, AI, and the intersection of both.</p>
+            <div class="contact-links">
+                <a href="https://github.com/quantum-harvey" target="_blank">🐙 GitHub</a>
+                <a href="https://github.com/quantum-harvey/quantum-hybrid-ai" target="_blank">📂 View Projects</a>
+            </div>
+        </section>
+        
+        <footer>
+            <p>⚛️ Built with quantum mechanics, classical AI, and genuine curiosity</p>
+            <p>© 2025 Quantum Harvey</p>
+        </footer>
+    </div>
+</body>
+</html>
