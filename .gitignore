@@ -1,25 +1,18 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
+# Proprietary Finance Module - NEVER PUSH
+proprietary/
 
-# Jupyter
+# Model weights - never push
+*.pth
+
+# Memory files - never push
+*.json
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Secrets - NEVER commit these!
-*.token
-api_keys.txt
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
 .env
-secrets/
-
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Editors
-.vscode/
-.idea/
-
-# Logs
-*.log
