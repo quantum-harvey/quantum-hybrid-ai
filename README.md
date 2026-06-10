@@ -268,3 +268,21 @@ working prototype of that future.**
 *Built with PennyLane - PyTorch - Quantum Mechanics - and Genuine Curiosity*
 
 *quantum-harvey 2024*
+---
+
+## 💼 Hire Me
+
+I am available for Quantum-AI consulting and
+diagnostic reports through Fiverr.
+
+**Services offered:**
+- Quantum-AI Diagnostic Reports
+- Custom Quantum ML proof of concepts
+- Multi-domain dataset analysis
+- Branded PDF report delivery
+
+**Fiverr:** https://www.fiverr.com/s/vvlElKD
+
+Send me your dataset (CSV) and I will run it
+through the Quantum-Harvey platform and deliver
+a professional analysis.
